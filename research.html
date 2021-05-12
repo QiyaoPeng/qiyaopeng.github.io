@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>simplestyle_4 - examples</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+
+<body>
+
+  <div id="main">
+
+    <div id="header">
+
+      <div id="logo">
+
+        <h1>Qiyao (Alice) Peng</h1>
+
+        <div class="slogan"></div>
+
+      </div>
+
+      <div id="menubar">
+
+        <ul id="menu">
+
+          <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+
+          <li><a href="index.html">Home</a></li>
+
+          <li class="current"><a href="research.html">Research</a></li>
+
+	  <li><a href="publications.html">Publications</a></li>
+
+          <li><a href="conferences.html">Conferences</a></li>
+
+          <li><a href="biography.html">Biography</a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div id="site_content">
+
+      <div id="sidebar_container">
+
+        <img class="paperclip" src="style/link.png" alt="link" />
+
+        <div class="sidebar">
+
+        <!-- insert your sidebar items here -->
+
+        <h3>Software</h3>
+
+        <p>Most of my research is done with the open-source Python library <a href="https://fenicsproject.org/">FEniCS</a>. </p>
+
+	<p> FEniCS is a computing platform for solving partial differential equations (PDEs) in particular, with finite-element methods.</p>
+
+         </div>
+
+      </div>
+
+      <div id="content">
+
+        <!-- insert the page content here -->
+
+        <h1> Research interests </h1>
+
+	<p>  My research focusses on the following topics: </p>
+
+        <h2> Agent-Based Modelling for Wound Healing </h2>
+
+	<p> We developed an agent-based model for wound contractions based on the work of previous PhD. The model mainly mimics the second and third phases of wound healing (i.e. the inflammation and the proliferation phases). The model contains many important components, namely, cells, signalling molecules and tissue bundles. The model is developed by using a series of partial differential equations (PDEs), and finite-element methods are used to solve the PDEs. Due to the forces exerted by the (myo)fibroblasts on the extracellular matrix (ECM), contractions occur. Hence, a moving mesh is cooperated in the model.
+
+	<br>
+
+	<br>
+
+	The model is capable of visualizing the dynamics of important components during the wound healing. Furthermore, it is a preliminary model for a patient-characterised simulation tool, which can be used by the surgeons to predict the contraction outcome of different patient, such that they can select the "best" treatment.  
+	</p>
+
+        <h2> Consistency between Various Approaches of Modelling Point Forces </h2>
+
+	<p> To model the forces exerted by the (myo)fibroblasts in the wound healing model, point forces are described by Dirac Delta distributions and superposition theory. However, for the dimensionality higher than one, the solution to the momentum balance equation is not in the same Hilbert space that classical finite element techniques aim at. To improve the accuracy of the solution, we came up with several alternatives which have been proven consistent with the immersed boundary approach analytically and numerically.
+
+	<br>
+
+	<br>
+
+	Furthermore, we are interested in upscaling the agent-based model to the continuum-based model regarding the momentum equilibrium equation. The consistency has been proven analytically in one dimension and numerically in both one and two dimensions with finite-element methods. </p>
+	
+	
+	<h2> Cell-Based Modelling for the Evolution of Cell Geometry </h2>
+	
+	<p> We developed a phenomenological model to determine the evolution of cell geometry, which collaborated the impact of the cellular traction forces on cell geometry. The model can be applied to mimic several microscopic biological observations such as cell deformation and migration during wound contraction and cancer metastasis. Furthermore, the current model provides a basis that can be expanded to describe more experimentally observed phenomena in cell geometry.
+
+	
+
+      </div>
+
+    </div>
+
+    <div id="footer">
+
+      <p>Copyright &copy; simplestyle_4 | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
