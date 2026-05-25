@@ -2215,6 +2215,14 @@ input, select, textarea {
 				font-size: 1.5em;
 			}
 
+/* No Bullet Points */
+
+	ul.no-bullets {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
 /* Labeled Icons */
 
 	ul.labeled-icons {
